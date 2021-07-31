@@ -1,0 +1,36 @@
+
+
+
+
+
+
+<main>
+  <p class="title">contact</p>
+  <div class="line"></div>
+  <div class="contact">
+     <div class="form">
+        <label for="name">Name</label><br>
+        <input id="name" type="text" [(ngModel)]="name" placeholder="Name"/><br>
+        <label for="number">WhatsApp Number</label><br>     
+        <input type="number" id="number" [(ngModel)]="num" placeholder="WhatsApp number" /><br>
+        <label for="message" >Message</label><br>
+        <textarea id="message" [(ngModel)]="message" placeholder="Message"></textarea><br>
+         <p style="color:red;">{{error}}</p>
+         <p style="color:green;">{{success}}</p>
+        <button  id="send" (click)="save()" [disabled]="isDisabled">send</button>
+      <br><br>
+    </div>
+    <div class="details">
+      <h3>Details</h3>
+      <ul>
+        <li><strong>Arvind Prajapati</strong></li>
+        <li>Email: arvindsoft37@gmail.com</li>
+        <li>Mobile: 8789096437</li>
+      </ul>
+      <a [href]="facebook"> <i class="fa fa-facebook"></i></a>
+      <a [href]="insta"> <i class="fa fa-instagram"></i></a>
+      <a [href]="twitter"> <i class="fa fa-twitter"></i></a>
+      <a [href]="linkedin"> <i class="fa fa-linkedin"></i></a>
+    </div>
+  </div>
+</main>

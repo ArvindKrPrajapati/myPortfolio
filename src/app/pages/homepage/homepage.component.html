@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+<div class="all" (scroll)="handleScroll($event)">
+  <app-header [whiteHead]="whiteHead"></app-header>
+<div class="main">
+  <main>
+    <p class="first-line">Hey ! my name is</p>
+  <p class="name">Arvind Prajapati</p>
+  <p class="profession">  I'm a <span>{{profession}}</span></p>
+ <!-- <div class="content"></div>
+   <span>I am a </span>
+    <ul>
+      <li>web developer</li>
+      <li>App developer</li>
+    </ul>-->
+    <br>
+ <a routerLink="contact"  class="hire">hire me</a>
+ </main>
+</div>
+
+
+  <app-about></app-about>
+  <app-skills></app-skills>
+  <app-works></app-works>
+  <app-contacts></app-contacts>
+ <app-footer></app-footer>
+</div>

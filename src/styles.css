@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+
+body,html{
+  height:100%;
+  width:100%;
+  margin:0px;
+  font-family: Sans-Serif;
+}
+body{
+  background:rgb(240,240,240);
+}
+
+  .line{
+    width:70px;
+    height: 2px;
+    border-radius: 3px;
+    background:dodgerblue;
+    margin:auto;
+  }
+    .title{
+    text-align: center;
+   margin: 0px;
+   font-weight: bolder;
+   font-size: 30px;
+   color: tomato;
+  }

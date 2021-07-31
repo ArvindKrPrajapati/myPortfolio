@@ -1,0 +1,77 @@
+
+
+
+
+main{
+  padding: 15px;
+ /*background:rgb(68,16,176);*/
+   background:radial-gradient(darkblue,rgb(20,20,20));  
+  font-weight: 500;
+}
+.skills{
+  width:70%;
+  margin: auto;
+}
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color:#eee;
+  font-size: 13px;
+}
+q{
+  quotes: "❝ " "❞";
+  font-size: 16px;
+  display: block;
+  color: white;
+  text-align: center;
+}
+  .footer{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: orange;
+    text-align: center;
+  }
+ .other-skills{
+   color:#eee;
+   font-size: 13px;
+ }
+ h3{
+   margin: 15px 0px 4px -8px;
+   color:white;
+   text-shadow: 1px 1px 1px black;
+ }
+ span{
+   color:red;
+ }
+  .underline{
+    margin-left: -8px;
+    height: 2px;
+    width:100px;
+    background:tan;
+    margin-bottom: 15px;
+  }
+/*
+h4{
+  color: white;
+}
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.skills p{
+  margin: 2px;
+  line-height: 22px;
+  font-size: 18px;
+}
+ul{
+  list-style: none;
+}
+.skills div{
+  width:50%;
+  margin: auto;
+}*/
+@media screen and (max-width:500px){   
+  .skills{
+    width:85%;
+  }
+}

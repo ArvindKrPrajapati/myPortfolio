@@ -1,0 +1,93 @@
+
+
+
+
+
+
+.menu,.menu-box{
+  display: none;
+}
+
+.white-head{
+  background:white;
+  box-shadow: 1px 1px 10px black;
+  
+}
+
+.header{
+  padding: 15px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 100;
+  width:100%;
+  transition: all .2s ease-in-out;
+}
+
+.domain{
+  font-size: 24px;
+  color:white;
+  text-shadow: 1px 1px 1px black;
+}
+.domain span{
+  color:red;
+}
+.links{
+  float: right;
+  margin-right: 30px;
+}
+
+.links a{
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+  padding: 15px;
+}
+ .links a:hover{
+  color: tomato;
+}
+
+
+@media screen and (max-width:500px){
+  .links{
+    display: none;
+  }
+  .menu{
+  float: right;
+  margin: -5px 10px -5px 5px;
+  border:none;
+  display: block;
+  padding:  5px;
+  background:inherit;
+}
+
+ .menu div{
+   width:25px;
+   height: 2px;
+   margin:5px;
+   background:white;
+ }
+ .menu-box{
+   padding-top: 60px;
+   display: block;
+   transform: translate(0%,-100%);
+   transition: all .3s ease-in-out;
+   height: 100%;
+   width:100%;
+   background:rgb(30,30,30);
+   position: fixed;
+   z-index: 100;
+ }
+ .menu-box a{
+   color:white;
+   display: block;
+   text-decoration: none;
+   width:100%;
+   text-align: center;
+   padding: 15px 0px 15px 0px;
+ }
+ .menu-box a:hover{
+   color:tomato;
+ }
+}
+
+

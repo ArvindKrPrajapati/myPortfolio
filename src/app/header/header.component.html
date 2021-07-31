@@ -1,0 +1,30 @@
+
+
+
+
+
+
+<section class="menu-box" [style.transform]="showMenuVar ? 'translate(0%,0%)' : 'translate(0%,-100%)'" >              
+    <a routerLink="/" (click)="showMenu()">Home</a>
+    <a routerLink="/about" (click)="showMenu()">About</a>
+    <a routerLink="/skills" (click)="showMenu()">Skills</a>
+    <a routerLink="/works" (click)="showMenu()">Works</a>
+    <a routerLink="/contact" (click)="showMenu()">contact</a>
+</section>
+
+  <section class="header" [class.white-head]="whiteHead">
+    <b class="domain" [style.color]="whiteHead ? 'orange' : 'white'">my<span>Portfolio</span></b>
+    <button class="menu" (click)="showMenu()">
+      <div [style.background]="whiteHead ? 'black' : 'white'"></div>
+      <div [style.background]="whiteHead ? 'black' : 'white'"></div>
+      <div [style.background]="whiteHead ? 'black' : 'white'"></div>
+    </button>
+   <div class="links">
+    <a routerLink="/" routerLinkActive="active">Home</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+    <a routerLink="/skills" routerLinkActive="active">Skills</a>
+    <a routerLink="/works" routerLinkActive="active">Works</a>
+    <a routerLink="/contact" routerLinkActive="active">contact</a>
+   </div>
+  </section>
+  

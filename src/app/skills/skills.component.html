@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+<main>
+  <p class="title">
+    Skills
+  </p>
+  <div class="line"></div>
+  <div class="skills">
+    <br>
+     <q>opportunity Dances with those who are already on the dance floor</q>
+     <br>
+      <h3>main<span>skills</span></h3>
+     <div class="underline"></div>
+      <section>
+     <div class="main-skills"  *ngFor="let mainSkilks of skills">
+     {{mainSkilks}}  
+      </div>
+      </section>
+      <br>
+      <h3>other<span>Skills</span></h3>
+    <div class="underline"></div>
+    <section>
+     <div class="other-skills" *ngFor="let otherSkills of others">
+      {{otherSkills}} 
+    </div>
+    </section>
+    </div>
+    <div class="footer">
+    ---<><><><>×<><><><>---
+   </div>
+  
+</main>

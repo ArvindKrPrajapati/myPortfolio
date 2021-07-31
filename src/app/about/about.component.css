@@ -1,0 +1,58 @@
+
+
+
+
+
+
+  main{
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
+
+
+  
+  .mypic{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    background:dodgerblue;
+    padding: 15px 10px 0px 0px;
+    height:200px;
+    width:200px;
+}
+
+ .about{
+   margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.aboutme p{
+  margin:2px;
+  line-height: 22px;
+  
+}
+.aboutme{
+ width:80%;
+}
+.pic-div{
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width:500px){
+
+
+.about{
+  display: block;
+}
+.aboutme{
+  box-sizing: border-box;
+  width:100%;
+  padding: 20px;
+}
+.aboutme p{
+  font-size: 14px;
+}
+}

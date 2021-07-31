@@ -1,0 +1,158 @@
+
+
+
+
+.all{
+  height: 100%;
+  overflow: scroll;
+}
+
+.main{
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0)),url('../../../assets/pt.png');
+}
+p,b{
+  margin: 0px;
+}
+
+.first-line{
+  font-size: 25px;
+  color:white;
+}
+ .name{
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 1px 15px white;
+}
+
+.profession{
+  font-size: 25px;
+  font-weight: 450;
+  line-height: 35px;
+  color:white;
+}
+.profession span{
+  color:orange;
+  letter-spacing: .8px;
+}
+.profession ::after{
+  content: " ";
+  height:30px;
+  width:2px;
+  padding-left: 2px;
+  margin-left: 5px;
+  background:orange;
+  animation: blink .2s infinite linear;
+}
+
+@keyframes blink{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.hire{
+  background:tomato;
+  padding: 6px 18px 6px 18px;
+  text-decoration: none;
+  color: white;
+  border:none;
+  border:2px solid tomato;
+  border-radius: 5px;
+}
+
+
+.hire:hover{
+  outline: none;
+  background:inherit;
+  color:tomato;
+}
+
+
+
+
+
+
+@media screen and (max-width:500px){
+  .main{
+    padding-left: 20px;
+  }
+  .name{
+    font-size: 30px;
+  }
+}
+
+/*
+span{
+   color:white;
+ }
+ li{
+   color:orange;
+ }
+span,li{
+   font-size: 30px;
+   font-weight: 440;
+   line-height: 40px;
+   letter-spacing: 1px;
+ }
+ 
+li{
+   margin-left: -35px;
+   position: relative;
+ }
+ul{
+   list-style: none;
+   height: 40px;
+   overflow: hidden;
+   position: relative;
+   top:-55px;
+   left:90px;
+ }
+ 
+ .content{
+   display: none;
+   position:fixed;
+   width:210px;
+   left:110px;
+   height: 40px;
+   background:inherit;
+   border-left: 2px solid darkblue;
+   z-index: 3;
+ }
+ 
+  .content{
+   animation: typing 2s infinite  steps(13) ;
+ }
+ li{
+   animation: slide 2s infinite  steps(2);
+ }
+ @keyframes typing{
+   0%{
+      left:110px;
+
+   }
+   100%{
+     left:350px;
+   }
+ }
+ 
+ @keyframes slide{
+  0%{
+    top:0;
+  }
+  100%{
+    top:-80px;
+  }
+ }
+
+*/
