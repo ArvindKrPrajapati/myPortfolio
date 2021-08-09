@@ -41,7 +41,7 @@ p,b{
 }
 .profession span{
   color:orange;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
 }
 .profession ::after{
   content: " ";
